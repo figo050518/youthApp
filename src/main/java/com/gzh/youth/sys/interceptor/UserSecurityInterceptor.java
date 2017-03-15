@@ -1,4 +1,4 @@
-package com.gzh.youth.sys.Interceptor;
+package com.gzh.youth.sys.interceptor;
 
 import com.gzh.youth.exception.MyException;
 import com.gzh.youth.model.Value;

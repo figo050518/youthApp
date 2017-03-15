@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import com.gzh.youth.sys.Interceptor.UserSecurityInterceptor;
+import com.gzh.youth.sys.interceptor.UserSecurityInterceptor;
 
 @Configuration
 public class MvcConfiguration extends WebMvcConfigurerAdapter{

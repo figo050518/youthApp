@@ -1,0 +1,302 @@
+[ INFO ] [main] [2017-03-08 09:15:35] com.gzh.youth.Application [48] - Starting Application on USER-20161109RI with PID 7108 (D:\workspace\youthApp\target\classes started by Administrator in D:\workspace\youthApp)
+[ DEBUG] [main] [2017-03-08 09:15:35] com.gzh.youth.Application [51] - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+[ INFO ] [main] [2017-03-08 09:15:35] com.gzh.youth.Application [661] - No active profile set, falling back to default profiles: default
+[ INFO ] [main] [2017-03-08 09:15:35] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4af788d6: startup date [Wed Mar 08 09:15:35 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 09:15:38] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 09:15:39] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 09:15:39] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [283] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gzh.youth.repository.UserRepository.
+[ INFO ] [main] [2017-03-08 09:15:39] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'jpaConfiguration' of type [class com.gzh.youth.config.JpaConfiguration$$EnhancerBySpringCGLIB$$15a9e665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 09:15:39] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bf15fba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 09:15:40] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [87] - Tomcat initialized with port(s): 8888 (http)
+[ INFO ] [main] [2017-03-08 09:15:40] org.apache.catalina.core.StandardService [179] - Starting service Tomcat
+[ INFO ] [main] [2017-03-08 09:15:40] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.6
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 5476 ms
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.druid.DruidStatViewServlet' to [/druid/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.sys.MyServlet' to [/myservlet]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'metricsFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [271] - Mapping filter: 'druidWebStatFilter' to urls: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 09:15:41] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[ INFO ] [main] [2017-03-08 09:15:42] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [349] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 09:15:42] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[ INFO ] [main] [2017-03-08 09:15:42] org.hibernate.Version [37] - HHH000412: Hibernate Core {5.0.11.Final}
+[ INFO ] [main] [2017-03-08 09:15:42] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[ INFO ] [main] [2017-03-08 09:15:42] org.hibernate.cfg.Environment [317] - HHH000021: Bytecode provider name : javassist
+[ INFO ] [main] [2017-03-08 09:15:42] org.hibernate.annotations.common.Version [66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[ INFO ] [main] [2017-03-08 09:15:42] com.alibaba.druid.pool.DruidDataSource [722] - {dataSource-1} inited
+[ INFO ] [main] [2017-03-08 09:15:43] org.hibernate.dialect.Dialect [156] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[ INFO ] [main] [2017-03-08 09:15:43] org.hibernate.tool.hbm2ddl.SchemaUpdate [105] - HHH000228: Running hbm2ddl schema update
+[ INFO ] [main] [2017-03-08 09:15:44] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [382] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 09:15:44] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4af788d6: startup date [Wed Mar 08 09:15:35 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/login]}" onto public com.gzh.youth.model.Value com.gzh.youth.web.LoginController.getUserPage(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/]}" onto java.lang.String com.gzh.youth.web.TestController.home()
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/addUser]}" onto java.lang.String com.gzh.youth.web.TestController.addUser()
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/userPage]}" onto public java.lang.Object com.gzh.youth.web.TestController.getUserPage()
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testRedisSet]}" onto public java.lang.String com.gzh.youth.web.TestController.testRedis()
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testSql]}" onto public com.gzh.youth.entity.User com.gzh.youth.web.TestController.sql()
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError]}" onto public java.lang.String com.gzh.youth.web.TestController.testError() throws com.gzh.youth.exception.MyException
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError2]}" onto public java.lang.String com.gzh.youth.web.TestController.testError2() throws java.lang.Exception
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [271] - Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO ] [main] [2017-03-08 09:15:45] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[ WARN ] [main] [2017-03-08 09:15:46] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration [43] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [912] - Bean with name 'dataSource' has been autodetected for JMX exposure
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [667] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[ INFO ] [main] [2017-03-08 09:15:46] org.springframework.context.support.DefaultLifecycleProcessor [341] - Starting beans in phase 0
+[ INFO ] [main] [2017-03-08 09:15:47] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [185] - Tomcat started on port(s): 8888 (http)
+[ INFO ] [main] [2017-03-08 09:15:47] com.gzh.youth.Application [57] - Started Application in 13.177 seconds (JVM running for 14.512)
+[ INFO ] [http-nio-8888-exec-1] [2017-03-08 09:16:22] org.apache.tomcat.util.http.parser.Cookie [179] - A cookie header was received [1488764388,1488848990,1488874045] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+[ INFO ] [http-nio-8888-exec-1] [2017-03-08 09:16:22] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [http-nio-8888-exec-1] [2017-03-08 09:16:22] org.springframework.web.servlet.DispatcherServlet [489] - FrameworkServlet 'dispatcherServlet': initialization started
+[ INFO ] [http-nio-8888-exec-1] [2017-03-08 09:16:22] org.springframework.web.servlet.DispatcherServlet [508] - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[ INFO ] [main] [2017-03-08 10:30:58] com.gzh.youth.Application [48] - Starting Application on USER-20161109RI with PID 5284 (D:\workspace\youthApp\target\classes started by Administrator in D:\workspace\youthApp)
+[ DEBUG] [main] [2017-03-08 10:30:58] com.gzh.youth.Application [51] - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+[ INFO ] [main] [2017-03-08 10:30:58] com.gzh.youth.Application [665] - The following profiles are active: dev
+[ INFO ] [main] [2017-03-08 10:30:58] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ce21add: startup date [Wed Mar 08 10:30:58 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 10:31:00] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 10:31:00] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 10:31:00] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [283] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gzh.youth.repository.UserRepository.
+[ INFO ] [main] [2017-03-08 10:31:00] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'jpaConfiguration' of type [class com.gzh.youth.config.JpaConfiguration$$EnhancerBySpringCGLIB$$d96f8f76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 10:31:00] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2fb708cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 10:31:01] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [87] - Tomcat initialized with port(s): 8888 (http)
+[ INFO ] [main] [2017-03-08 10:31:01] org.apache.catalina.core.StandardService [179] - Starting service Tomcat
+[ INFO ] [main] [2017-03-08 10:31:01] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.6
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2544 ms
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.druid.DruidStatViewServlet' to [/druid/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.sys.MyServlet' to [/myservlet]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'metricsFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [271] - Mapping filter: 'druidWebStatFilter' to urls: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:01] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[ INFO ] [main] [2017-03-08 10:31:02] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [349] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.Version [37] - HHH000412: Hibernate Core {5.0.11.Final}
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.cfg.Environment [317] - HHH000021: Bytecode provider name : javassist
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.annotations.common.Version [66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[ INFO ] [main] [2017-03-08 10:31:02] com.alibaba.druid.pool.DruidDataSource [722] - {dataSource-1} inited
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.dialect.Dialect [156] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[ INFO ] [main] [2017-03-08 10:31:02] org.hibernate.tool.hbm2ddl.SchemaUpdate [105] - HHH000228: Running hbm2ddl schema update
+[ INFO ] [main] [2017-03-08 10:31:03] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [382] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 10:31:03] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ce21add: startup date [Wed Mar 08 10:30:58 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/login]}" onto public com.gzh.youth.model.Value com.gzh.youth.web.LoginController.getUserPage(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/]}" onto java.lang.String com.gzh.youth.web.TestController.home()
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/addUser]}" onto java.lang.String com.gzh.youth.web.TestController.addUser()
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/userPage]}" onto public java.lang.Object com.gzh.youth.web.TestController.getUserPage()
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testRedisSet]}" onto public java.lang.String com.gzh.youth.web.TestController.testRedis()
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testSql]}" onto public com.gzh.youth.entity.User com.gzh.youth.web.TestController.sql()
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError]}" onto public java.lang.String com.gzh.youth.web.TestController.testError() throws com.gzh.youth.exception.MyException
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError2]}" onto public java.lang.String com.gzh.youth.web.TestController.testError2() throws java.lang.Exception
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [271] - Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO ] [main] [2017-03-08 10:31:04] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ WARN ] [main] [2017-03-08 10:31:05] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration [43] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [912] - Bean with name 'dataSource' has been autodetected for JMX exposure
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [667] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.context.support.DefaultLifecycleProcessor [341] - Starting beans in phase 0
+[ ERROR] [main] [2017-03-08 10:31:05] org.apache.coyote.http11.Http11NioProtocol [181] - Failed to start end point associated with ProtocolHandler [http-nio-8888]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:344)
+	at sun.nio.ch.Net.bind(Net.java:336)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:199)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.gzh.youth.Application.main(Application.java:18)
+[ ERROR] [main] [2017-03-08 10:31:05] org.apache.catalina.core.StandardService [181] - Failed to start connector [Connector[HTTP/1.1-8888]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8888]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.gzh.youth.Application.main(Application.java:18)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:344)
+	at sun.nio.ch.Net.bind(Net.java:336)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:199)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 12 common frames omitted
+[ INFO ] [main] [2017-03-08 10:31:05] org.apache.catalina.core.StandardService [179] - Stopping service Tomcat
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer [101] - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[ ERROR] [main] [2017-03-08 10:31:05] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [987] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ce21add: startup date [Wed Mar 08 10:30:58 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.context.support.DefaultLifecycleProcessor [356] - Stopping beans in phase 0
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [449] - Unregistering JMX-exposed beans on shutdown
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [241] - Unregistering JMX-exposed beans
+[ INFO ] [main] [2017-03-08 10:31:05] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [551] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 10:31:05] com.alibaba.druid.pool.DruidDataSource [1447] - {dataSource-1} closed
+[ INFO ] [main] [2017-03-08 10:31:22] com.gzh.youth.Application [48] - Starting Application on USER-20161109RI with PID 7884 (D:\workspace\youthApp\target\classes started by Administrator in D:\workspace\youthApp)
+[ DEBUG] [main] [2017-03-08 10:31:22] com.gzh.youth.Application [51] - Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+[ INFO ] [main] [2017-03-08 10:31:22] com.gzh.youth.Application [665] - The following profiles are active: dev
+[ INFO ] [main] [2017-03-08 10:31:22] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [582] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7099c91f: startup date [Wed Mar 08 10:31:22 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 10:31:23] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 10:31:23] org.springframework.data.repository.config.RepositoryConfigurationDelegate [170] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [main] [2017-03-08 10:31:23] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [283] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gzh.youth.repository.UserRepository.
+[ INFO ] [main] [2017-03-08 10:31:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'jpaConfiguration' of type [class com.gzh.youth.config.JpaConfiguration$$EnhancerBySpringCGLIB$$367078a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 10:31:24] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cb7f1fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [main] [2017-03-08 10:31:24] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [87] - Tomcat initialized with port(s): 8888 (http)
+[ INFO ] [main] [2017-03-08 10:31:24] org.apache.catalina.core.StandardService [179] - Starting service Tomcat
+[ INFO ] [main] [2017-03-08 10:31:24] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.6
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:24] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:24] org.springframework.web.context.ContextLoader [276] - Root WebApplicationContext: initialization completed in 2673 ms
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'dispatcherServlet' to [/]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.druid.DruidStatViewServlet' to [/druid/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.ServletRegistrationBean [190] - Mapping servlet: 'com.gzh.youth.sys.MyServlet' to [/myservlet]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'metricsFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [271] - Mapping filter: 'druidWebStatFilter' to urls: [/*]
+[ INFO ] [localhost-startStop-1] [2017-03-08 10:31:25] org.springframework.boot.web.servlet.FilterRegistrationBean [258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[ INFO ] [main] [2017-03-08 10:31:25] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [349] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.jpa.internal.util.LogHelper [31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.Version [37] - HHH000412: Hibernate Core {5.0.11.Final}
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.cfg.Environment [213] - HHH000206: hibernate.properties not found
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.cfg.Environment [317] - HHH000021: Bytecode provider name : javassist
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.annotations.common.Version [66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[ INFO ] [main] [2017-03-08 10:31:25] com.alibaba.druid.pool.DruidDataSource [722] - {dataSource-1} inited
+[ INFO ] [main] [2017-03-08 10:31:25] org.hibernate.dialect.Dialect [156] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[ INFO ] [main] [2017-03-08 10:31:26] org.hibernate.tool.hbm2ddl.SchemaUpdate [105] - HHH000228: Running hbm2ddl schema update
+[ INFO ] [main] [2017-03-08 10:31:26] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [382] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[ INFO ] [main] [2017-03-08 10:31:26] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [47] - HHH000397: Using ASTQueryTranslatorFactory
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7099c91f: startup date [Wed Mar 08 10:31:22 CST 2017]; root of context hierarchy
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/login]}" onto public com.gzh.youth.model.Value com.gzh.youth.web.LoginController.getUserPage(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/]}" onto java.lang.String com.gzh.youth.web.TestController.home()
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/addUser]}" onto java.lang.String com.gzh.youth.web.TestController.addUser()
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/userPage]}" onto public java.lang.Object com.gzh.youth.web.TestController.getUserPage()
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testRedisSet]}" onto public java.lang.String com.gzh.youth.web.TestController.testRedis()
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testSql]}" onto public com.gzh.youth.entity.User com.gzh.youth.web.TestController.sql()
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError]}" onto public java.lang.String com.gzh.youth.web.TestController.testError() throws com.gzh.youth.exception.MyException
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/testError2]}" onto public java.lang.String com.gzh.youth.web.TestController.testError2() throws java.lang.Exception
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [271] - Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO ] [main] [2017-03-08 10:31:27] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [354] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping [543] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[ WARN ] [main] [2017-03-08 10:31:28] org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration [43] - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] - Registering beans for JMX exposure on startup
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [912] - Bean with name 'dataSource' has been autodetected for JMX exposure
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [667] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.context.support.DefaultLifecycleProcessor [341] - Starting beans in phase 0
+[ INFO ] [main] [2017-03-08 10:31:28] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [185] - Tomcat started on port(s): 8888 (http)
+[ INFO ] [main] [2017-03-08 10:31:28] com.gzh.youth.Application [57] - Started Application in 7.041 seconds (JVM running for 7.409)

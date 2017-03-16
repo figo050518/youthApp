@@ -7,7 +7,7 @@ import org.apache.xpath.operations.String;
 public class Test {
 	
 	public static void main(String[] args) {
-		
+		System.out.println("何毅到此一游!");
 	}
 	
 //	public static void main(String[] args) {
